@@ -1,0 +1,160 @@
+h1{
+    font-family: cursive;
+    
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color:rgb(0, 0, 0) ;
+    line-height: 1.6;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center; /* Aligns text to the center of the image */
+    gap: 20px; /* Adds space between image and text */
+}
+
+.profile-image {
+    width: 150px; 
+    border-radius: 10px;
+}
+
+.profile-text {
+    flex: 1; /* Makes the text take up remaining space */
+}
+
+img {
+    min-width: 50%;
+    max-width: 60%;
+    height: auto;
+  }
+
+p{
+    font-size: larger;
+
+}  
+li{
+    margin-left: 10;
+    text-align: center;
+}
+body {
+    background-image: url("C:/Users/moham/Desktop/kqbil/New folder/tsawr/tr.jpg"); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps the background fixed in place */
+}
+
+
+/* Table */
+
+
+table {
+    width: 100%; /* Makes table take full width of the container */
+    border-collapse: collapse; /* Removes gaps between cells */
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the table */
+}
+
+th {
+    background-color: #004080; /* Dark blue header background */
+    color: white; /* White text for contrast */
+    padding: 10px; /* Adds padding inside header cells */
+    font-weight: bold;
+    text-align: left; /* Aligns header text to the left */
+    font-size: 16px;
+}
+
+td {
+    background-color: #f9f9f9; /* Light grey background for data cells */
+    padding: 10px; /* Adds padding inside data cells */
+    text-align: left; /* Aligns text to the left */
+    font-size: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #e6f2ff; /* Light blue for even rows */
+}
+
+
+tr:hover {
+    background-color: #d0e4f7; /* Light blue background on hover */
+   
+}
+
+
+td a {
+    color: #004080; /* Dark blue link color */
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline; 
+}
+
+
+table, th, td {
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+/* Styling for the contact section container */
+section h2 {
+    font-size: 24px;
+    color: #004080; /* Dark blue heading color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #f5f5f5; /* Light grey background */
+    padding: 20px 30px; /* Padding for form spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 500px; /* Limits form width */
+    margin: 0 auto; /* Centers the form */
+}
+
+/* Styling form labels */
+form label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Styling input and textarea fields */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; /* Full-width input fields */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+form button[type="submit"] {
+    width: 100%; /* Full-width button */
+    background-color: #004080; /* Dark blue button */
+    color: white; /* White text for contrast */
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+form button[type="submit"]:hover {
+    background-color: #003366; /* Darker blue on hover */
+}
+
